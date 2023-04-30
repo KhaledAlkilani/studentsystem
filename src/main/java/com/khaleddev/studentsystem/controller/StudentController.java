@@ -15,6 +15,7 @@ import java.util.List;
 @RestController
 //This line specifies the base URL path for this controller.
 @RequestMapping("/student")
+@CrossOrigin
 // This line declares the StudentController class.
 public class StudentController {
 //This line annotates the studentService field with the Autowired annotation. It enables automatic dependency injection for the studentService field.
